@@ -1,0 +1,24 @@
+@import "../../../styles/index.scss";
+
+.notification {
+    width: 80%;
+    padding: 20px;
+    margin: 10px;
+    color: $light;
+
+    &.info {
+        background-color: $prussian-blue-450;
+    }
+
+    &.success {
+        background-color: $green-600;
+    }
+
+    &.warning {
+        background-color: $orange-400;
+    }
+
+    &.error {
+        background-color: $red-600;
+    }
+}

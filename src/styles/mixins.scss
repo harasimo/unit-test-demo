@@ -1,0 +1,4 @@
+@mixin body-text() {
+  font: 400 16px/1 $primary-font-family;
+  color: $primary-text-color;
+}
