@@ -16,7 +16,7 @@ export class UsersList extends Component<UsersListProps, UsersListState> {
     };
 
     public componentDidMount() {
-        var usrs = this.props.usersService.fetchUsers();
+        const usrs = this.props.usersService.getUsers();
 
         this.setState({ users: usrs });
     }
