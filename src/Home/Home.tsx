@@ -9,7 +9,7 @@ export class Home extends Component {
         return (
             <>
                 <Heading>I'm such an empty thing...</Heading>
-                <Notification type="info" additionalClassname="">
+                <Notification type="error" additionalClassname="">
                     To jest jakieś powiadomienie, prawdopodobnie coś się udało, lub nie.
                 </Notification>
                 <UsersList usersService={defaultUsersService} />
